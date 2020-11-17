@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Hello from './components/Hello/Hello';
+import { Age } from './components/Age';
 
 function App() {
     return (
         <div style={{padding: 20}}>
-            <Hello/>
+            <Age/>
         </div>
     );
 }
